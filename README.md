@@ -4,11 +4,28 @@
 A privacy impact assessment (PIA) of HelloFresh's data handling and privacy practices, including compliance with GDPR, data mesh architecture, and recommendations for enhanced privacy measures.
 
 ## Table of Contents
+- [Overview](#overview)
 - [Introduction](#introduction)
-- [Technologies](#technologies)
-- [Privacy Practices](#privacy-practices)
-- [Anonymization and Data Security](#anonymization-and-data-security)
-- [Recommendations](#recommendations)
+- [Product Description](#product-description)
+  - [Plan Selection and Recipe Details](#plan-selection-and-recipe-details)
+  - [Ingredient2Vec Neural Network](#ingredient2vec-neural-network)
+  - [Dimension-Reduced Vector Space](#dimension-reduced-vector-space)
+  - [Recipe Knowledge Graph](#recipe-knowledge-graph)
+  - [Random Walk-Based Graph Embedding](#random-walk-based-graph-embedding)
+  - [Node2Vec Embedding](#node2vec-embedding)
+- [Data Collection](#data-collection)
+  - [Customer Data](#1-customer-data)
+  - [Digital Transaction Data](#2-digital-transaction-data)
+  - [Ingredient and Recipe Data](#3-ingredient-and-recipe-data)
+  - [Data Collection Overview](#data-collection-overview)
+  - [Cookie Management](#cookie-management)
+- [Data Architecture](#data-architecture)
+  - [Apache Kafka: Real-Time Data Streaming](#apache-kafka-real-time-data-streaming)
+  - [Data Flow and Processing](#data-flow-and-processing)
+  - [ETL Orchestration with Kubernetes and Apache Airflow](#etl-orchestration-with-kubernetes-and-apache-airflow)
+  - [Data Management with Apache Hive and Impala](#data-management-with-apache-hive-and-impala)
+  - [Data Storage and Transfer via S3](#data-storage-and-transfer-via-s3)
+  - [Data Quality and Validation](#data-quality-and-validation)
 - [Conclusion](#conclusion)
 
 ### HelloFresh Privacy Impact Assessment - Key Insights
